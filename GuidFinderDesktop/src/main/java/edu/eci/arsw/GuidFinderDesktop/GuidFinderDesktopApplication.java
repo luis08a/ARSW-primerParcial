@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class GuidFinderDesktopApplication {
-
+	
 	public static void main(String[] args) {
 		SpringApplication.run(GuidFinderDesktopApplication.class, args);
 		
@@ -36,10 +36,7 @@ public class GuidFinderDesktopApplication {
 
 			@Override
 			public void keyTyped(KeyEvent e) {
-				// TODO Auto-generated method stub
-				
 			}
-			
 		};
 		
 	}

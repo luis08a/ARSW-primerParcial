@@ -61,7 +61,7 @@ public class GuidFinder {
 				e.printStackTrace();
 			}
 		}
-		return MyThread.getOcurrences().get();
+		return MyThread.getOcurrences();
 		
 	}
 

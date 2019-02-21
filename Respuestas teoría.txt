@@ -1,0 +1,28 @@
+1. Establezca verdadero o falso en las siguientes sentencias:
+	a. Rest es un protocolo que permite la interoperabilidad
+		Falso
+	b. Rest es una tecnología que está basada sobre el protocolo http
+		Verdadero
+	c. SOAP es un protocolo que tiene el objetivo transferir mensajes entre aplicaciones distribuidas
+		Verdadero
+	d. Los componentes de rest son nouns,Adjectives,Representations
+		Verdadero
+	e. SOA es un protocolo de transferencia de mensajes entre aplicaciones distribuidas}
+		Falso
+2. Explique cada uno de los niveles de madurez de REST (Gloria REST)
+3. Cuales son los componentes del SOAP-ENVELOPE y para que sirven
+4. Defina la diferencia de un estilo arquitectónico cliente servidor y un P2P
+	En cliente servidor se tienen dos componentes básicos que cumplen una función diferente, el cliente
+	que realiza peticiones al servidor y el servidor que responde las peticiones.
+	En P2P se tiene un solo componente que puede cumplir ambas funciones, tanto la de solicitar como la de 
+	responder.
+5. Escriba un ejemplo de un programa P2P y explique por que es P2P
+	Transferencia de archivos por medio de bitorrent, porqué cada maquina dentro de la red funciona
+	como cliente y servidor a la vez. Es decir cualquiera puede pedir un recurso y dicho recurso puede estar
+	diftribuido en uno o más clientes que pueden responder a la petición y asu vez también puede responder 
+	por la solicitud de un recurso con el que cuenta.
+6. Qué es WSDL y para que sirve?
+	Define las carectristicas y propiedades de los archivos xml para la implementación de SOAP
+7. Explique que significa que un objeto sea Thread-Safety
+	Que dicho thread es deterministico, es decir que se puede predecir el el estado del thread en cualquier instante de tiempo.
+8. Explique los tipos y las variables atómicas. 

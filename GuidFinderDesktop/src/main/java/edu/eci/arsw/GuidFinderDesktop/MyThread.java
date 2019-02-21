@@ -43,8 +43,8 @@ public class MyThread extends Thread{
 			
 	}
 	}
-	public static AtomicInteger getOcurrences() {
-		return count;
+	public static int getOcurrences() {
+		return count.get();
 	}
 	
 	public static void inactive() {
