@@ -35,7 +35,7 @@ public class GuidFinderController {
 	try {
 		s.registerAllGuid(guid);
 		return new ResponseEntity<>(HttpStatus.CREATED);
-    } catch (XXException ex) {
+    } catch (Exception ex) {
     	//Logger.getLogger(GuidFinderController.class.getName()).log(Level.SEVERE, null, ex);
         return new ResponseEntity<>("Error bla bla bla",HttpStatus.FORBIDDEN);            
     }

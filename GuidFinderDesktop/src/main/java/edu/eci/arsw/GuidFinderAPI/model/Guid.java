@@ -7,6 +7,8 @@ public class Guid {
 	private String guid;
 	private double count;
 	
+	public Guid(){}
+	
 	public Guid(String fecha, String guid, double count){
 		this.Fecha= fecha;
 		this.guid = guid;

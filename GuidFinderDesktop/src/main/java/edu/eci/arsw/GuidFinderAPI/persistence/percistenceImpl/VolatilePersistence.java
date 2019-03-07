@@ -18,7 +18,6 @@ public class VolatilePersistence implements Persistence{
 
 	@Override
 	public List<Guid> getAllGuid() {
-		
 		return guids;
 	}
 
