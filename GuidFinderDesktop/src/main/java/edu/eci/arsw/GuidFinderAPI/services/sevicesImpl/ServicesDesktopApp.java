@@ -19,7 +19,7 @@ public class ServicesDesktopApp implements Services{
 	Persistence p;
 	
 	public ServicesDesktopApp() {
-		findUUID();
+		//findUUID();
 	}
 	
 	@Override
@@ -45,9 +45,10 @@ public class ServicesDesktopApp implements Services{
 		GuidFinder finder;
 		try {
 			finder = new GuidFinder();
-			double count = finder.countGuids(UUID.fromString("d0692660-c39a-4d73-9496-d9df0c4ebdf3"));
+			//double count = finder.countGuids(UUID.fromString("d0692660-c39a-4d73-9496-d9df0c4ebdf3"));
 			String fecha = LocalDate.now().toString();
-			p.registerGuid(new Guid(fecha,"d0692660-c39a-4d73-9496-d9df0c4ebdf3",count));
+			Guid g = new Guid(fecha,"d0692660-c39a-4d73-9496-d9df0c4ebdf3",finder.countGuids(UUID.fromString("d0692660-c39a-4d73-9496-d9df0c4ebdf3")));
+			p.registerGuid(g);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

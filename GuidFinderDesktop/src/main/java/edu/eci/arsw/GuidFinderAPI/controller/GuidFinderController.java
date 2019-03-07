@@ -19,7 +19,7 @@ import edu.eci.arsw.GuidFinderAPI.model.Guid;
 import edu.eci.arsw.GuidFinderAPI.services.Services;
 
 @RestController
-@RequestMapping("/uiid")
+@RequestMapping("/uuid")
 public class GuidFinderController {
 	@Autowired
 	Services s;

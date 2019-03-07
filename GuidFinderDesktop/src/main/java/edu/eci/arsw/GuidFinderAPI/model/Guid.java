@@ -29,11 +29,11 @@ public class Guid {
 		this.guid=guid;
 	}
 	
-	public String getDate() {
+	public String getFecha() {
 		return Fecha;
 	}
 	
-	public String setDate() {
+	public String setFecha() {
 		return Fecha;
 	}
 	
